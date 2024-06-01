@@ -15,4 +15,4 @@ To test how Stripe works in Laravel you need to follow the Stripe documentation 
 
 Execute the command stripe listen --forward-to https://laravel11-react-stripe-saas-production.up.railway.app/buy-credits/webhook
 
-
+Remember to change your Stripe keys.
