@@ -11,3 +11,8 @@
 
 <a href="https://laravel11-react-stripe-saas-production.up.railway.app/">DEMO ON RAILWAY.APP</a>
 
+To test how Stripe works in Laravel you need to follow the Stripe documentation for running the Webhook. https://docs.stripe.com/webhooks/quickstart?lang=php
+
+Execute the command stripe listen --forward-to https://laravel11-react-stripe-saas-production.up.railway.app/buy-credits/webhook
+
+
